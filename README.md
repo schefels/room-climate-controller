@@ -1,5 +1,5 @@
 # room-climate-controller
-![alt text](https://github.com/schefels/room-climate-controller/blob/main/room-climate-controller.jpg?raw=true)
+![picture of assembled room climate controller](https://github.com/schefels/room-climate-controller/blob/main/room-climate-controller.jpg?raw=true)
 
 ## Circuit board from Make
 https://www.heise.de/news/Aktion-Make-verschenkt-Platinen-fuer-die-CO2-Ampel-4938738.html
@@ -17,3 +17,4 @@ https://www.heise.de/select/make/2020/5/2022015381334973804
 
 * Displays all measured values on a Adafruit 7-segment matrix and the CO2 level on a traffic light
 * Displays measured CO2 level on a traffic light (three LEDs: green, yellow, red)
+  - see Pettenkofer-Zahl: https://www.svlw.ch/427-pettenkofer-zahl-und-co2-konzentrationen
