@@ -1,4 +1,4 @@
-# room-climate-controller
+# Room Climate Controller
 ![picture of assembled room climate controller](https://github.com/schefels/room-climate-controller/blob/main/room-climate-controller.jpg?raw=true)
 
 ## Circuit board from Make
