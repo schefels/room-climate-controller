@@ -15,4 +15,5 @@ https://www.heise.de/select/make/2020/5/2022015381334973804
   - Temperatur
   - Humidity
 
-* Displays measured values on a Adafruit 7-segment matrix and the CO2 level on a traffic light
+* Displays all measured values on a Adafruit 7-segment matrix and the CO2 level on a traffic light
+* Displays measured CO2 level on a traffic light (three LEDs: green, yellow, red)
