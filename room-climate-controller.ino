@@ -10,7 +10,7 @@ unsigned short co2 = 0; // CO2
 float temp = 0; // temperature
 float humidity = 0; // humidity
 const byte measurementInterval = 30;  // CO2-measurement intervall in seconds (max 1800)
-const float tempOffset = 3.0; // temperature offset up to 5°C, stored in non-volatile memory of SCD30
+const float tempOffset = 2.5; // temperature offset up to 5°C, stored in non-volatile memory of SCD30
 const short alt = 520; // Set altitude of the sensor in m, stored in non-volatile memory of SCD30
 
 // Adafruit Feather 7 Segment https://learn.adafruit.com/adafruit-7-segment-led-featherwings/overview
@@ -136,6 +136,7 @@ void trafficLights() {
 // Serial Monitor Output (e.g., cu -l /dev/ttyUSB0 -s 115200 | xargs --null -IL date +"%Y-%m-%d %H:%M:%S | L")
 void serialOutput() {
   Serial.println();
+  Serial.printf("%012u | ", millis());
   Serial.printf("Temperature: %6.2f°C | ", temp);
   Serial.printf("Humidity: %6.2f%% | ", humidity);
   if ( co2 <= goodAir )  {
