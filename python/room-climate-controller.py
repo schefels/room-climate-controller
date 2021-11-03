@@ -81,5 +81,5 @@ def animate(i):
 
 while ARDUINO.is_open:
     fig.canvas.manager.set_window_title('Room Climate Controller')
-    animation = animation.FuncAnimation(fig, animate, fargs=None, interval=10000)
+    animated = animation.FuncAnimation(fig, animate, fargs=None, interval=10000)
     plt.show()
