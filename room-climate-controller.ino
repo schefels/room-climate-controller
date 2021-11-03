@@ -10,7 +10,7 @@ unsigned short co2 = 0; // CO2
 float temp = 0; // temperature
 float humidity = 0; // humidity
 const byte measurementInterval = 30;  // CO2-measurement intervall in seconds (max 1800)
-const float tempOffset = 2.5; // temperature offset up to 5°C, stored in non-volatile memory of SCD30
+const float tempOffset = 2; // temperature offset up to 5°C, stored in non-volatile memory of SCD30
 const short alt = 520; // Set altitude of the sensor in m, stored in non-volatile memory of SCD30
 
 // Adafruit Feather 7 Segment https://learn.adafruit.com/adafruit-7-segment-led-featherwings/overview
